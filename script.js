@@ -99,7 +99,7 @@ async function loadMonthlyCourse() {
         }        
     }    
     const chartLabel = `Kursverlauf auf Monatsbasis ${labelArray[labelArray.length - 1]} - ${labelArray[0]} (Grundlage sind die Schlusskurs)`;
-    chartDate(chartLabel);
+    renderChart(chartLabel);
 }
 
 
@@ -107,7 +107,7 @@ async function loadMonthlyCourse() {
  * Drawing the Line Chat
  * @param {string} chartLabel 
  */
-function chartDate(chartLabel) {
+function renderChart(chartLabel) {
     const ctx = getElementById('myChart');
     new Chart(ctx, {
         type: 'line',
