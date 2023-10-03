@@ -1,0 +1,3 @@
+Welcome to Alpha Vantage! Here is your API key: HFTST5Q8RHJGYBD5. Please record this API key at a safe place for future data access.
+
+Welcome to Alpha Vantage! Your API key is: G09GYCHBZGY3FBNL. Please record this API key at a safe place for future data access.
