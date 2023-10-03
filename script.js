@@ -164,3 +164,9 @@ function getElementById(id) {
     }
     return element;
 }
+
+
+function init() {
+    loadCourse();
+    loadMonthlyCourse();
+}
