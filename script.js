@@ -57,8 +57,7 @@ async function loadMonthlyCourse() {
             data: date            
         }
     });
-  
-    const chartTitle = `Kursverlauf auf Monatsbasis ${labelArray[labelArray.length - 1]} - ${labelArray[0]} (Grundlage sind die Schlusskurs)`;
+    const chartTitle = `Kursverlauf auf Monatsbasis ${datasets[datasets.length - 1].data} - ${datasets[0].data} (Grundlage sind die Schlusskurs)`;
     renderChart(chartTitle, datasets);
 }
 
